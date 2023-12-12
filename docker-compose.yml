@@ -1,0 +1,36 @@
+
+version: '3.8'
+services:
+    # sqldata:
+    #     image: mcr.microsoft.com/mssql/server:2017-latest
+    #     container_name: my-sql-container
+    #     environment:
+    #         - SA_PASSWORD=password
+    #         - ACCEPT_EULA=Y
+    #         - MSSQL_PID=Express
+    #     ports:
+    #         - "5434:1433"
+    #     networks:
+    #         - my-network
+    catalog-api:
+        build:
+            context: .
+            dockerfile: eShop/Dockerfile
+        image: eshop-catalog-api:${TAG:-latest}
+        ports: 
+            - "3000:80"
+        # depends_on:
+        #     - sqldata
+        # environment:
+        #     - ConnectionString=sqldata
+        networks:
+            - my-network
+
+
+
+networks:
+  my-network:
+    driver: bridge
+
+        
+    

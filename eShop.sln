@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop", "eShop\eShop.csproj", "{D9296279-FC83-4A13-8A3B-83EF70A374BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{334F1DC9-3385-4CA7-9EB3-0A887991D8DA}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9296279-FC83-4A13-8A3B-83EF70A374BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9296279-FC83-4A13-8A3B-83EF70A374BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9296279-FC83-4A13-8A3B-83EF70A374BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9296279-FC83-4A13-8A3B-83EF70A374BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13774AB1-4199-409E-BE00-F21750B05774}
+	EndGlobalSection
+EndGlobal
